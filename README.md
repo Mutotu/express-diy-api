@@ -30,7 +30,3 @@ Stretch
 1. Error handling - we will go over the syntax for this on Monday in class
 2. Move your route handling functions into a controller, and use a router to match those handlers to route strings&verbs 
 3. Add validations to your model. If your validations raise an error, you should catch them in your route handler and send that error message to the client
-4. Actually connect your API to your group 1 project frontend! In the frontend, change your `fetch` base urls to `http://localhost:<your-port-number>` (but keep the paths the same!). You'll also have to tell your express app to allow requests from your frontend:
-  - `npm install cors`
-  - `const cors = require('cors')`
-  - Before all your routes, `app.use(cors())`
