@@ -30,3 +30,4 @@ Stretch
 1. Error handling - we will go over the syntax for this on Monday in class
 2. Move your route handling functions into a controller, and use a router to match those handlers to route strings&verbs 
 3. Add validations to your model. If your validations raise an error, you should catch them in your route handler and send that error message to the client
+4. Create the correct association between books and authors tables, then associate each book with its appropriate author.
